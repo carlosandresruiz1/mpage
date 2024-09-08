@@ -59,5 +59,26 @@ esto hara que el servidor de backend quede arriba :)
 
 # Instalacion de Angular (front-end)
 
+1. instalr nodejs: https://nodejs.org/en
+2. instalar angular
+ ```bash
+npm install -g @angular/cli
+```
+3.descargar todo el repositorio de angular18 que se encuentra en:https://github.com/carlosandresruiz1/angular18/tree/master (en un futuro espero poder dejarlo en uno solo repositorio)
+4.dentro de la carpeta de angular18 usar:
+ ```bash
+ng serve
+```
+5.el servidor de angular debe estar funcionando en http://localhost:4200/
+
+# CRUD + usuario y contraseña
+
+- para acceder a las funciones de crud en la pagina principal (http://localhost:4200/) en la barra de navegacion se encutra la opcion de login, desde alli se puede seleccionar admin que nos llevara a la pagina de admistracion.
+- las credenciales para esta son:User: Admin
+  email: Admin123@gmail.com
+  Password: Admin123
+
+- desde all'i se puede admistrar la informacion que aparecera en la pagina.
+
 
 
