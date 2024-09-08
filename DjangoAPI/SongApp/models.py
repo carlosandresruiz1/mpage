@@ -40,7 +40,7 @@ class Song(models.Model):
     song_name = models.CharField(max_length=100)
     song_url = models.CharField(max_length=200)
     song_lyrics_e = models.CharField(max_length=500)
-    fk_almbum_id = models.ForeignKey(Album, on_delete=models.CASCADE)
+    fk_album_id = models.ForeignKey(Album, on_delete=models.CASCADE)
     fk_artist_id = models.ManyToManyField(Artist)
 
     def __str__(self):

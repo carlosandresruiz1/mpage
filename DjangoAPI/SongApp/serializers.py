@@ -32,7 +32,7 @@ class SongSerializer(serializers.ModelSerializer):
                   'song_name',
                     'song_url',
                     'song_lyrics_e',
-                  'fk_almbum_id',
+                  'fk_album_id',
                   'fk_artist_id')
         
 class UserSongSerializer(serializers.ModelSerializer):
