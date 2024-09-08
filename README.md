@@ -1,4 +1,4 @@
-# Pagina web
+# Pagina web Django+Angular
 
 Hola :),
 
@@ -44,3 +44,20 @@ con esto en la consola deveria verse el nombre del venv antes del directorio
 pip install -r .\requirements.txt
 ```
 esto comenzara a installar todos los componentes usados para el backend
+
+3. descargar proyecto
+
+luego descargar la carpeta DjangoAPI
+
+5. activar el proyecto
+
+dentro de la carpeta de DjangoAPI usar:
+```bash
+...\> py manage.py runserver
+```
+esto hara que el servidor de backend quede arriba :)
+
+# Instalacion de Angular (front-end)
+
+
+
